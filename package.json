@@ -1,0 +1,25 @@
+{
+  "name": "getres-canvas-image-loader",
+  "version": "1.1.0",
+  "description": "getres canvas image loader for browser and Node.js",
+  "main": "lib/",
+  "browser": {
+    "./lib": "./lib/browser"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "url": "git@github.com:WebSeed/getres-canvas-image-loader.git",
+    "type": "git"
+  },
+  "author": "Will Bamford <w.bamford@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": ">=1",
+    "getres": "^1.2.3"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}
